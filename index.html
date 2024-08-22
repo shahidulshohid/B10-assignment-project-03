@@ -44,19 +44,21 @@
     </script>
   </head>
   <body class="font-manrope">
-    <!-- header section starts here  -->
+    <!-- header -->
     <header class="bg-gray-100">
       <!-- nav section starts here  -->
       <nav class="w-11/12 mx-auto pt-4">
         <div class="navbar">
           <div class="navbar-start">
-            <a class="btn text-2xl lg:text-3xl">
-              <div
-                class="bg-primary text-black w-7 h-7 rounded-full -rotate-45 text-xl"
-              >
-                <i class="fa-solid fa-arrow-right"></i>
+            <a href="#">
+              <div class="flex items-center gap-2 text-2xl lg:text-3xl">
+                <div
+                  class="bg-primary text-black w-7 h-7 rounded-full -rotate-45 text-xl flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <span class="font-bold">Rinterior</span>
               </div>
-              <span class="font-bold">Rinterior</span>
             </a>
           </div>
           <div
@@ -160,7 +162,7 @@
       <!-- nav section ends here  -->
 
       <!-- banner section starts here  -->
-      <section class="w-11/12 mx-auto mb-24 border">
+      <section class="w-11/12 mx-auto mb-20">
         <div class="flex flex-col items-center gap-5">
           <div>
             <img src="./assets/banner.png" alt="" />
@@ -176,33 +178,67 @@
             sophistication, featuring weathered wood, sleek metal <br />
             accents, and large windows that flood the space with natural light.
           </p>
-          <!-- <div class="text-center bg-secondary py-2 px-6 rounded-full">
+          <div
+            class="flex justify-center w-full h-10 bg-secondary sm:w-52 rounded-full"
+          >
             <button class="flex items-center gap-2">
-              View Details
+              <span class="text-xl font-bold">View Details</span>
               <div
                 class="bg-primary text-black w-7 h-7 rounded-full -rotate-45 text-xl"
               >
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
             </button>
-          </div> -->
-          <div class="flex justify-center w-full h-10 bg-secondary sm:w-52 rounded-full">
-            <button class="flex items-center gap-2">
-              <span class="text-xl font-bold ">View Details</span>
-              <div
-                  class="bg-primary text-black w-7 h-7 rounded-full -rotate-45 text-xl"
-                >
-                  <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </button>
           </div>
         </div>
       </section>
       <!-- banner section ends here  -->
     </header>
-    <!-- main section starts here  -->
-    <main></main>
-    <!-- footer section starts here  -->
+    <!-- main -->
+    <main>
+      <!-- about section starts here  -->
+      <section class="bg-gray-100">
+        <div class="relative w-11/12 mx-auto h-96 py-24 border">
+          <div class="absolute -top-1/4 -left-12 hidden lg:flex">
+            <img src="./assets/Vector.png" alt="">
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <!-- left side  -->
+          <div class="flex-1">
+            <div class="flex justify-center lg:justify-start">
+              <button class="flex items-center gap-2 bg-white py-1 px-3 rounded-full text-sm font-bold">
+                <i class="fa-solid fa-arrow-right"></i>
+                <h6>About Us</h6>
+              </button>
+            </div>
+            <h2 class="text-center font-bold text-4xl">We design thoughtful, liveable spaces</h2>
+            <p>The barn house captivates with its blend of rustic charm and 
+              modern sophistication, featuring weathered wood, sleek metal accents.</p>
+              <div class="">
+                <img src="./assets/commercial.png" alt="">
+                <div>
+                  <h4>Commercial</h4>
+                  <p> The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+              <div>
+                <img src="./assets/residential.png" alt="">
+                <div>
+                  <h4>Residential</h4>
+                  <p> The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+          </div>
+          <!-- right side  -->
+          <div class="flex-1">
+            <img class="w-full" src="./assets/Rectangle.png" alt="">
+          </div>
+          </div>
+        </div>
+      </section>
+      <!-- about section starts here  -->
+    </main>
+    <!-- footer  -->
     <footer></footer>
   </body>
 </html>
