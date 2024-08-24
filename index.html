@@ -38,6 +38,9 @@
             fontFamily: {
               manrope: ["Manrope", " sans-serif"],
             },
+            backgroundImage: {
+              contactBgImg: "url('/assets/bg.jpg')",
+            },
           },
         },
       };
@@ -327,7 +330,7 @@
       <!-- our work section starts here  -->
 
     <!-- latest portfolio section  -->
-     <section class="w-11/12 mx-auto mt-14">
+     <section class="w-11/12 mx-auto mt-14 pb-24">
       <div class="flex justify-center mb-6">
         <button
           class="flex items-center gap-2 bg-secondary py-1 px-3 rounded-full text-sm font-bold"
@@ -395,11 +398,77 @@
      </section>
     <!-- latest portfolio section  -->
     </div>
-    <!-- discus section starts here  -->
-     <section class="w-11/12 mx-auto bg-"></section>
-    <!-- discus section ends here  -->
+    <!-- contact section starts here  -->
+     <section class="bg-contactBgImg bg-no-repeat bg-cover bg-center py-24 mt-2 mb-5">
+      <div class="w-11/12 mx-auto">
+        <div class="flex justify-center mb-6">
+          <button
+            class="flex items-center gap-2 bg-secondary py-1 px-3 rounded-full text-sm font-bold"
+          >
+            <i class="fa-solid fa-arrow-right"></i>
+            <h6>Let's Connect</h6>
+          </button>
+        </div>
+        <h2 class="text-center text-4xl font-semibold text-slate-800 mb-6"> Let’s Discuss Next Project  </h2>
+        <p class="text-center text-slate-800">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents. </p>
+
+       <form action="">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+          <div>
+            <input class="w-full h-14 rounded-full px-6 text-gray-900 font-semibold" type="text" placeholder="First Name*">
+          </div>
+          <div>
+            <input class="w-full h-14 rounded-full px-6 text-gray-900 font-semibold" type="text" placeholder="Last Name*">
+          </div>
+          <div>
+            <input class="w-full h-14 rounded-full px-6 text-gray-900 font-semibold" type="text" placeholder="Phone Number*">
+          </div>
+          <div>
+            <input class="w-full h-14 rounded-full px-6 text-gray-900 font-semibold" type="email" placeholder="Email Number*">
+          </div>
+        </div>
+        <div>
+          <textarea name="" id="" rows="10" placeholder="Write your message here" class="w-full rounded-3xl p-5 my-6 text-gray-900 font-semibold"></textarea>
+          <div
+            class="flex justify-center w-full h-14 bg-lime-400 rounded-full"
+          >
+            <button class="flex items-center gap-2">
+              <span class="text-xl font-bold">Send Mail</span>
+              <div
+                class="bg-black text-white w-7 h-7 rounded-full -rotate-45 text-xl"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+       </form>
+      </div>
+     </section>
+    <!-- contact section ends here  -->
     </main>
     <!-- footer  -->
-    <footer></footer>
+    <footer class="bg-[#1C1C1C] py-24">
+      <div class="w-11/12 mx-auto">
+        <div class="flex items-center gap-2 text-3xl justify-center">
+          <div
+            class="bg-primary text-black w-8 h-8 rounded-full -rotate-45 text-xl flex items-center justify-center"
+          >
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <span class="text-white font-bold">Rinterior</span>
+        </div>
+        <p class="text-center text-gray-600 font-bold mt-5">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+        <div>
+          <ul class="grid grid-cols-1 md:grid-cols-5 mt-12 gap-5 text-white text-center">
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>Portfolio</li>
+            <li><a href="#"></a>Blogs</li>
+            <li><a href="#"></a>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
